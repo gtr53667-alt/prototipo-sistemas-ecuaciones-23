@@ -1,0 +1,78 @@
+body {
+  font-family: system-ui, sans-serif;
+  background: #eef2f7;
+  margin: 0;
+  display: grid;
+  place-items: center;
+  min-height: 100vh;
+}
+
+.app {
+  background: #ffffff;
+  width: min(92vw, 540px);
+  padding: 2rem;
+  border-radius: 16px;
+  box-shadow: 0 12px 28px rgba(15, 23, 42, 0.08);
+}
+
+.scenario {
+  background: #f8fafc;
+  border-left: 4px solid #2563eb;
+  padding: 1rem;
+  border-radius: 8px;
+  line-height: 1.5;
+}
+
+.step {
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+}
+
+select, button {
+  padding: 0.65rem 0.8rem;
+  border-radius: 8px;
+  border: 1px solid #cbd5e1;
+  font-size: 1rem;
+}
+
+.eq-row {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-top: 0.4rem;
+  flex-wrap: wrap;
+}
+
+.coef {
+  width: 72px;
+  padding: 0.5rem;
+  border-radius: 8px;
+  border: 1px solid #cbd5e1;
+  font-size: 1rem;
+  text-align: center;
+}
+
+.actions {
+  margin-top: 1.25rem;
+  display: flex;
+  gap: 0.6rem;
+}
+
+button {
+  background: #2563eb;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+#next-btn {
+  background: #475569;
+}
+
+.feedback {
+  margin-top: 1rem;
+  font-weight: 600;
+  line-height: 1.45;
+}
